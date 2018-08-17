@@ -1,0 +1,16 @@
+/*
+Types in TS ================ 1
+*/
+// String
+let str: String = 'string';
+
+// number
+let num: Number = 10;
+
+// boolean
+let isTrue: boolean = true;
+let isFalse: boolean = false;
+
+// other . переоброзование
+let unknown: String | number = '1';
+unknown = 1;
